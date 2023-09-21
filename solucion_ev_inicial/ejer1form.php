@@ -6,6 +6,7 @@
 	</head>
 	<body>
 		<?php
+		//prueba de commit
 if (isset($_REQUEST["entero"]))
 {
     $entero=$_REQUEST["entero"];
