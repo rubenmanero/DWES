@@ -16,14 +16,14 @@
         <?php
         $cantidad = $_REQUEST['cantidad'];
         $moneda   = $_REQUEST['tipo'];
-        $dolar    = 1.09;
-        $libra    = 0.88;
+        $dolar    = 1.0563;
+        $libra    = 0.8678;
         if ($moneda == 'dolar') {
             $cambio = $cantidad * $dolar;
             print "$cantidad euros equivalen a $cambio dólares estadounidenses.<br>";
         } else {
             $cambio = $cantidad * $libra;
-            print "$cantidad euros equivales a $cambio libras esterlinas.<br>";
+            print "$cantidad euros equivalen a $cambio libras esterlinas.<br>";
         }
         ?>
         <br><a href="ejer2form.html">Volver a pedir nueva conversión</a>
