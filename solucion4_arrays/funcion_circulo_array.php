@@ -8,7 +8,7 @@
 <body>
 <?php
   define ("PI",3.141592);
-  //Nueva versión de función circulo (Pablo)
+  //Nueva versión de función circulo
   //Ahora recibe como parámetro de entrada el valor del radio y devuelve con return un array con los 2 resultados: la longitud y el area.
   function circulo($r)
   {
