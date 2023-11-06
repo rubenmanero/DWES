@@ -3,6 +3,7 @@
 <head>
 	<title>Función círculo</title>
 	<meta charset="utf-8">
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 
@@ -16,6 +17,14 @@
 <?php
   define ("PI",3.141592);
   //Nueva versión de función circulo (Pablo)
+=======
+</head>
+
+<body>
+<?php
+  define ("PI",3.141592);
+  //Nueva versión de función circulo
+>>>>>>> c7e9a6205aa08c145ee64e4fb9884d90abfc6e3b
   //Ahora recibe como parámetro de entrada el valor del radio y devuelve con return un array con los 2 resultados: la longitud y el area.
   function circulo($r)
   {
@@ -32,9 +41,12 @@
   echo "El círculo de radio 4.5 tiene longitd $res[0] y área $res[1]<br/>";
 
 ?>
+<<<<<<< HEAD
 </main>
       <aside></aside>
   </section>
   <footer></footer>
+=======
+>>>>>>> c7e9a6205aa08c145ee64e4fb9884d90abfc6e3b
 </body>
 </html>

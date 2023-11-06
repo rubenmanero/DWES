@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<<<<<<< HEAD
     <title>Ejercicio 1. Hoja 4</title>
+=======
+    <title>Hoja 4. Ejercicio 1</title>
+>>>>>>> c7e9a6205aa08c145ee64e4fb9884d90abfc6e3b
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
@@ -15,8 +19,14 @@
             <?php
                 if ($_REQUEST) {
                     print "<h1>Resultado</h1>";
+<<<<<<< HEAD
                     echo "<p>El número introducido ha sido el ",$_REQUEST['numero'],
                         "<br> y el resto de su división por 12 es <b>",dividir($_REQUEST['numero']),"</b>.</p>";
+=======
+                    $resultado = dividir($_REQUEST['numero']);
+                    echo "<p>El número introducido ha sido el ",$_REQUEST['numero'],
+                    "<br> y el resto de su división por 12 es <b>$resultado</b>.</p>";
+>>>>>>> c7e9a6205aa08c145ee64e4fb9884d90abfc6e3b
                 }
             ?>
             <h1>Formulario</h1>

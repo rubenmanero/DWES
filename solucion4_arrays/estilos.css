@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
     height: 1000px;
+=======
+    height: 1100px;
+>>>>>>> c7e9a6205aa08c145ee64e4fb9884d90abfc6e3b
     display: flex;
     flex-direction: column;
     margin: 0px;
