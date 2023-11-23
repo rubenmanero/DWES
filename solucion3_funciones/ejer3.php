@@ -19,17 +19,17 @@
                     if ($x == 1) {
                         return false;
                     }
-                    if ($x == 2) {
+                    elseif ($x == 2) {
                         return true;
                     }
-
-                    for ($i = 2; $i <= $x/2; $i++) {
-                        if ($x % $i == 0) {
-                            return false;
+                    else{
+                        for ($i = 2; $i <= $x/2; $i++) {
+                            if ($x % $i == 0) {
+                                return false;
+                            }
                         }
-                    }
                     return true;
-
+                    }
                 }
 
                 function esprimo2($x)
