@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 20vh;
+    min-width: 100vw;
+    background-color: black;
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    min-height: 40vh;
+    min-width: 100vw;
+}
+
+nav{
+    min-height: 40vh;
+    min-width: 15%;
+    background-color: gray;
+}
+
+aside{
+    min-height: 40vh;
+    min-width: 15%;
+    background-color: gray;
+}
+
+main{
+    min-height: 40vh;
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: top center;
+    justify-content: top center;
+    padding: 5%;
+}
+
+main div{
+    align-items: center;
+    align-content: center;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.derecha{
+    text-align: end;
+}
+
+.fecha{
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: blue ;
+}
+
+.borde{
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+input[type="submit"],[type="reset"]{
+    padding: 5px;
+    margin: 5px;
+}
+
+form.tablas{
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+form.tablas input[min]{
+    width: 2em;
+}
+
+div.tablas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table.primos{
+    width: 10px;
+}
+
+tr:hover{
+    background-color: aqua;
+}
+
+.azul{
+    background-color: aqua;
+}
+
+td.matriz{
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: right;
+}
+
+footer{
+    height: 20vh;
+    min-width: 100vw;
+    background-color: black;
+}
