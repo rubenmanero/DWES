@@ -62,7 +62,7 @@ if (isset($_REQUEST['enviar'])) {
          //Calculamos la media de precios de los productos
 		 $preciomedio=$sumaprecio/$totprod;
          //Mostramos los resultados obtenidos
-		 echo "<tr class='azul'>",
+		 echo "<tr>",
 			    "<td colspan='5'>Total productos diferentes:</td>
                 <td>".$totprod."</td>
             </tr>";
