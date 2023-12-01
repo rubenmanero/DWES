@@ -87,7 +87,7 @@ echo "<select name='proveedor'>";
 $nfilas = mysqli_num_rows ($consulta);
 for ($i=0; $i<$nfilas; $i++) {
     $resultado = mysqli_fetch_array ($consulta);
-    echo "<option>". $resultado['Proveedor']."</option>";
+    echo "<option value='".$resultado['Proveedor']."'>". $resultado['Proveedor']."</option>";
 }
 echo "</select>";
 echo "&nbsp;&nbsp;<input type='submit' name='enviar' value='Enviar consulta'></p>";
