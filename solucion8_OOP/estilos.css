@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 20vh;
+    min-width: 100vw;
+    background-color: black;
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    min-height: 40vh;
+    min-width: 100vw;
+}
+
+nav{
+    min-height: 40vh;
+    min-width: 15%;
+    background-color: gray;
+}
+
+main{
+    min-height: 40vh;
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: top center;
+    justify-content: top center;
+    padding: 5%;
+}
+
+ul>ul {
+    padding-left: 15px;
+}
+
+table.formulario{
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+}
+
+aside{
+    min-height: 40vh;
+    min-width: 15%;
+    background-color: gray;
+}
+
+footer{
+    height: 20vh;
+    min-width: 100vw;
+    background-color: black;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.carta{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carta2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.horizontal{
+    display: flex;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+
+.redondeado{
+    background-color: lightgray;
+    border-radius: 20px;
+    border: 2px solid blue;
+    padding: 30px;
+}
+
+fieldset{
+    width: 80%;
+}
+
+.azul{
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.calculadora{
+    background-color: darkblue;
+    color: white;
+}
+
+.bordes{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
