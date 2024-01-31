@@ -29,7 +29,7 @@ class Model
 
     public function delete($id)
     {
-        $result = $this->db->dataQuery("DELETE FROM " . $this->table . " WHERE id = " . $id);
+        $result = $this->db->dataManipulation("DELETE FROM " . $this->table . " WHERE id = " . $id);
         return $result;
     }
 }
