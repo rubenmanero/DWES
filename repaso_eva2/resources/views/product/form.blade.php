@@ -12,7 +12,7 @@
         <form action="{{ route('product.update', ['product' => $product->id]) }}" method="POST">
             @method('PATCH')
     @else
-        <form action="{{ route('store') }}" method="POST">
+        <form action="{{ route('product.store') }}" method="POST">
     @endisset
             @csrf
             <br>

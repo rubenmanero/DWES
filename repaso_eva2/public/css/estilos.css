@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 20vh;
+    min-width: 100vw;
+    background-color: black;
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    min-height: 40vh;
+    min-width: 100vw;
+}
+
+nav{
+    min-height: 40vh;
+    min-width: 15%;
+    background-color: gray;
+}
+
+main{
+    min-height: 40vh;
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: top center;
+    justify-content: top center;
+    padding: 5%;
+}
+
+main>h1{
+    font-size: xx-large;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+ul.sinpuntos{
+    list-style: none;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.sinbordes{
+    border: none;
+}
+
+aside{
+    min-height: 40vh;
+    min-width: 15%;
+    background-color: gray;
+}
+
+footer{
+    height: 20vh;
+    min-width: 100vw;
+    background-color: black;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.izquierda{
+    text-align: start;
+}
+
+.derecha{
+    text-align: end;
+}
+
+.carta{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carta2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.horizontal{
+    display: flex;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+
+.redondeado{
+    background-color: lightgray;
+    border-radius: 20px;
+    border: 2px solid blue;
+    padding: 30px;
+}
+
+fieldset{
+    width: 80%;
+}
+
+.azul{
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.calculadora{
+    background-color: darkblue;
+    color: white;
+}
+
+.bordes{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+input.grande{
+    margin: 10px;
+    padding: 20px;
+    width: 50%;
+    font-size: x-large;
+}
+
+.mitad{
+    width: 50%;
+}
+
+td.hover:hover{
+    background-color: lightskyblue;
+    text-decoration:none;
+    color:#FFFFFF;
+    display:block;
+}
+
+a.block{
+    text-decoration:none;
+    color: black;
+    display:block;
+}
+
+.superior{
+    vertical-align: top;
+}
